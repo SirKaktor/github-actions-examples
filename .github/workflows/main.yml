@@ -10,5 +10,5 @@ jobs:
         run: echo "Hallo Welt!"
       - name: Ordner erstellen
         run: mkdir ordner
-      - name: listen
-        run: ls
+      - name: fantasie
+        run: fantasiebefehl
