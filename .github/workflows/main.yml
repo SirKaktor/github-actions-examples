@@ -8,3 +8,7 @@ jobs:
     steps:
       - name: cooler step-name
         run: echo "Hallo Welt!"
+      - name: Ordner erstellen
+        run: mkdir ordner
+      - name: listen
+        run: ls
