@@ -1,0 +1,10 @@
+name: cooler-name
+
+on: push
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: cooler step-name
+        run: echo "Hallo Welt!"
